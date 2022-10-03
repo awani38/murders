@@ -35,3 +35,7 @@ murders %>% mutate(abb = reorder(abb, rate)) %>%
   geom_bar(width = 0.8, stat = "identity", color = "blue") +
   coord_flip()
 ```
+
+## Observations
+
+DC has the highest murder rate followed by LA
